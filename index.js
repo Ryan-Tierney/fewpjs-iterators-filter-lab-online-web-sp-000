@@ -14,6 +14,5 @@ function fuzzyMatch(drivers, partialName) {
   });
 } 
 
-
 function matchName() {
 }
