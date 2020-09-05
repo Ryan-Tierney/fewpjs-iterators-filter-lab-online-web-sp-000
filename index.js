@@ -7,8 +7,8 @@ function findMatching(drivers, name) {
   });
 } 
 
-function fuzzyMatch(list, partialname) {
-  let lengthOfName = partialname.length 
+function fuzzyMatch(list, partialName) {
+  let lengthOfName = partialName.length 
   return drivers.filter(function (driverName) { 
     return driverName.slice() 
 } 
